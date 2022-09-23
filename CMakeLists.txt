@@ -676,6 +676,7 @@ if (MSVC)
   #
   # [1] https://msdn.microsoft.com/en-us/library/4hwaceh6.aspx
   add_definitions("-D_USE_MATH_DEFINES")
+  add_definitions("-DNOMINMAX")
   # Disable signed/unsigned int conversion warnings.
   add_definitions("/wd4018")
   # Disable warning about using struct/class for the same symobl.
